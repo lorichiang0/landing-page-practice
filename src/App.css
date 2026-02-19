@@ -362,9 +362,11 @@ body {
   .hero-section {
     padding: 30px 20px;
     gap: 30px;
-    min-height: auto;
+    min-height: unset;
   }
-
+.hero-right {
+  display: none;
+}
   .main-title {
     font-size: 32px;
     margin-bottom: 20px;

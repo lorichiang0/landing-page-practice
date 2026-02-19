@@ -192,15 +192,16 @@ function App() {
 
         {/* control / variant-1: right side video */}
         {path !== '/variant-2' && (
-          <div className="hero-right">
-            <div className="glow-effect"></div>
-            <div className="phone-mockup">
-              <video autoPlay loop muted playsInline width="400">
-                <source src={heroVideo} type="video/mp4" />
-              </video>
-            </div>
-          </div>
-        )}
+  <div className="hero-right">
+    <div className="glow-effect"></div>
+    <div className="phone-mockup">
+      <video autoPlay loop muted playsInline width="400" 
+        style={path === '/variant-1' ? { maxHeight: '400px', overflow: 'hidden' } : {}}>
+        <source src={heroVideo} type="video/mp4" />
+      </video>
+    </div>
+  </div>
+)}
       </main>
 
       {/* ===== VARIANT-1 SECTIONS ===== */}
@@ -276,6 +277,7 @@ function App() {
               </button>
             </div>
           </div>
+          
 
           {/* Cards */}
           <h2 style={{ fontSize: '48px', fontWeight: '700', color: 'white', textAlign: 'center', margin: '40px 0 20px 0' }}>
