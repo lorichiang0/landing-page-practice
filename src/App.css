@@ -368,7 +368,7 @@ body {
   display: none;
 }
   .main-title {
-    font-size: 32px;
+    font-size: 40px;
     margin-bottom: 20px;
   }
 
@@ -406,7 +406,7 @@ body {
   }
 
   .countdown-number {
-    font-size: 22px;
+    font-size: 28px;
   }
 
   /* Stats bar */

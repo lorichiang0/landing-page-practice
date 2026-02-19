@@ -225,9 +225,9 @@ function App() {
           </div>
 
           <div style={{ padding: '60px', textAlign: 'center' }}>
-            <h2 style={{ fontSize: '48px', fontWeight: '700', color: 'white', marginBottom: '20px' }}>
-              Reach people in their most relaxed, receptive moments.
-            </h2>
+            <h2 style={{ fontSize: 'clamp(28px, 5vw, 48px)', fontWeight: '700', color: 'white', marginBottom: '20px' }}>
+  Reach people in their most relaxed, receptive moments.
+</h2>
             <p style={{ color: '#aaa', fontSize: '18px', marginBottom: '40px' }}>
               Axon's AI delivers your ads to the right person, at the right moment, every time. Portrait video, Interactive Page, and Dynamic Catalog all in one ad.
             </p>
@@ -241,9 +241,9 @@ function App() {
       {/* ===== VARIANT-2 SECTIONS ===== */}
       {showResults && (
         <>
-          <h3 style={{ fontSize: '48px', fontWeight: '700', color: 'white', textAlign: 'center', margin: '40px auto 20px auto' }}>
-            See how far your budget can go.
-          </h3>
+          <h3 style={{ fontSize: 'clamp(28px, 5vw, 48px)', fontWeight: '700', color: 'white', textAlign: 'center', margin: '40px auto 20px auto' }}>
+  See how far your budget can go.
+</h3>
 
           {/* Calculator */}
           <div style={{
@@ -280,9 +280,9 @@ function App() {
           
 
           {/* Cards */}
-          <h2 style={{ fontSize: '48px', fontWeight: '700', color: 'white', textAlign: 'center', margin: '40px 0 20px 0' }}>
-            Brands scaled with Axon
-          </h2>
+          <h2 style={{ fontSize: 'clamp(28px, 5vw, 48px)', fontWeight: '700', color: 'white', textAlign: 'center', margin: '40px 0 20px 0' }}>
+  Brands scaled with Axon
+</h2>
           <div style={{ overflow: 'hidden', position: 'relative' }}>
             <div style={{ display: 'flex', gap: '20px', padding: '24px', width: 'max-content', animation: 'cardScroll 25s linear infinite' }}>
               {[...cardData, ...cardData].map((item, i) => (
