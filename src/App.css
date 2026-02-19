@@ -343,3 +343,110 @@ body {
     max-width: 350px;
   }
 }
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    padding: 16px 20px;
+  }
+
+  .nav-menu {
+    gap: 16px;
+  }
+
+  .nav-menu span {
+    display: none;
+  }
+
+  /* Hero */
+  .hero-section {
+    padding: 30px 20px;
+    gap: 30px;
+    min-height: auto;
+  }
+
+  .main-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .kicker {
+    font-size: 14px;
+  }
+
+  /* CTA Banner */
+  .purple-banner {
+    flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .purple-banner p {
+    font-size: 15px;
+  }
+
+  .cta-btn {
+    width: 100%;
+    padding: 12px;
+  }
+
+  /* Phone mockup */
+  .phone-mockup {
+    max-width: 280px;
+  }
+
+  /* Countdown */
+  .countdown {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .countdown-number {
+    font-size: 22px;
+  }
+
+  /* Stats bar */
+  .stats-bar {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .stat-divider {
+    width: 60px;
+    height: 1px;
+  }
+
+  .stat-number {
+    font-size: 48px;
+  }
+
+  /* Variant 2 hero */
+  .hero-section--vertical {
+    padding: 24px 20px;
+  }
+
+  .hero-section--vertical .hero-left {
+    text-align: left;
+  }
+
+  .variant2-subtitle {
+    font-size: 15px;
+  }
+
+  /* Final CTA section */
+  .landing-page > div:last-child {
+    padding: 60px 20px !important;
+  }
+
+  .landing-page > div:last-child h2 {
+    font-size: 36px !important;
+  }
+
+  /* Calculator (variant 2) */
+  input[type="number"] {
+    font-size: 16px;
+  }
+}
